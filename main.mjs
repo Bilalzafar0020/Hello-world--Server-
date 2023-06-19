@@ -73,7 +73,7 @@ app.get('/', (req, res) => {
         
         <script>
           function openBrowser() {
-            window.open('http://localhost:${PORT}/profile');
+            window.open('https://frail-snaps-clam.cyclic.app/profile');
           }
         </script>
       </body>
