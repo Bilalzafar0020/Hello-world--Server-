@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello-World-express-server</title>
     <link rel="stylesheet" href="./style.css">
+<link rel="shortcut icon" href="./server-sharp.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
+
 <body>
     
 
     <a target="_blank"  style="height: fit-content;"
-    ><button class="button" id="connectButton">Connect to Server</button> </a>
+    ><button class="button" id="connectButton">Connect to Server 
+    </button>
+ </a>
 
 
 <script>
-    document.getElementById('connectButton').addEventListener('click', () => {
+ window.onload = function(){
+    Swal.fire({
+                title: 'Welcome!',
+                text: 'Click on the button below to connect to the server.',
+                icon: 'info',
+                confirmButtonText: 'OK'
+            });
+ };
+ 
+ 
+ 
+ 
+ document.getElementById('connectButton').addEventListener('click', () => {
     window.open('http://localhost:3001', '_blank');
 });
 
