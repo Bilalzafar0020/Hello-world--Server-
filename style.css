@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #1522e0;
+    color: #fff4f4;
+    cursor: pointer;
+    width: 10rem;
+    height: 4rem;
+    margin-top: 16rem; 
+    font-size: 17px;   
+     font-family:Arial, Helvetica, sans-serif;
+}
+.button:hover{
+    transform:scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+   height: fit-content;
+}
+
+
+
+
+
+
+
+
